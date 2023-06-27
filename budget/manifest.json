@@ -14,8 +14,7 @@
   },
   "options_page": "options.html",
   "background": {
-    "scripts": ["eventPage.js"],
-    "persistent": false
+    "service_worker": "eventPage.js"
   },
-  "permissions": ["storage", "notifications", "contextMenu"]
+  "permissions": ["storage", "notifications", "contextMenus"]
 }
